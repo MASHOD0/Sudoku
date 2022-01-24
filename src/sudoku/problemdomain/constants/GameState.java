@@ -1,4 +1,7 @@
 package sudoku.problemdomain.constants;
 
-public class GameState {
+public enum GameState {
+    COMPLETE,
+    ACTIVE,
+    NEW
 }
