@@ -1,6 +1,6 @@
 package sudoku.problemdomain.constants;
 
-public enum rows {
+public enum Rows {
     TOP,
     MIDDLE,
     BOTTOM
