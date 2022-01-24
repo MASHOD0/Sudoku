@@ -1,5 +1,6 @@
 package sudoku;
 
+import com.wiseassblog.sudoku.userinterface.UserInterfaceImpl;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
