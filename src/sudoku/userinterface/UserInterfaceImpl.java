@@ -1,8 +1,8 @@
-package com.wiseassblog.sudoku.userinterface;
+package sudoku.userinterface;
 
-import com.wiseassblog.sudoku.constants.GameState;
-import com.wiseassblog.sudoku.problemdomain.Coordinates;
-import com.wiseassblog.sudoku.problemdomain.SudokuGame;
+//import sudoku.constants.GameState;
+import sudoku.problemdomain.Coordinates;
+import sudoku.problemdomain.SudokuGame;
 import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
@@ -111,9 +111,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
                 //By passing "this" (which means the current instance of UserInterfaceImpl), when an action occurs,
                 //it will jump straight to "handle(ActionEvent actionEvent)" down below.
                 tile.setOnKeyPressed(this);
-
                 textFieldCoordinates.put(new Coordinates(xIndex, yIndex), tile);
-
                 root.getChildren().add(tile);
             }
         }
