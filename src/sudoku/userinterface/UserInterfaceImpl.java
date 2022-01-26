@@ -1,6 +1,6 @@
 package sudoku.userinterface;
 
-//import sudoku.constants.GameState;
+import sudoku.constants.GameState;
 import sudoku.problemdomain.Coordinates;
 import sudoku.problemdomain.SudokuGame;
 import javafx.event.EventHandler;
@@ -18,11 +18,6 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import sudoku.problemdomain.Coordinates;
-import sudoku.problemdomain.SudokuGame;
-import sudoku.problemdomain.constants.GameState;
-import sudoku.userinterface.IUserInterfaceContract;
-import sudoku.userinterface.SudokuTextField;
 
 import java.util.HashMap;
 
