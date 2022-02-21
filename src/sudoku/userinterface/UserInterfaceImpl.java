@@ -41,7 +41,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
     private static final double BOARD_PADDING = 50;
 
     private static final double BOARD_X_AND_Y = 576;
-    private static final Color WINDOW_BACKGROUND_COLOR = Color.rgb(255, 0, 255);
+    private static final Color WINDOW_BACKGROUND_COLOR = Color.rgb(82, 50, 168);
     private static final Color BOARD_BACKGROUND_COLOR = Color.rgb(224, 242, 241);
     private static final String SUDOKU = "Sudoku Pro";
 
